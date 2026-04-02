@@ -1,0 +1,36 @@
+.wrapper {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333;
+  padding-bottom: 20px;
+  z-index: 2;
+}
+
+.list {
+  list-style: none;
+  padding-top: 40px;
+}
+
+.item {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #4a4a4a;
+  }
+}
+
+.item--link {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}

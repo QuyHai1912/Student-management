@@ -1,0 +1,122 @@
+.login {
+  background-image: url("../../asset/image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.wrapper--form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 580px;
+  width: 600px;
+  // background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  top: 100px;
+  left: 50px;
+  padding: 40px 0;
+  align-items: center;
+}
+
+.form--logo {
+  width: 80px;
+  height: 80px;
+}
+
+.form--univer {
+  margin-top: 10px;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.form--name {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.form {
+  width: 80%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper--input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.form--label {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form--input {
+  border: 1px solid #ad9e9e;
+  outline: none;
+  background-color: white;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+
+.form--forget {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: var(--blue-color);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.form--btnLog {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--blue-color);
+  font-size: 1.6rem;
+  color: white;
+  line-height: 1.8rem;
+  cursor: pointer;
+}
+
+.form--text {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.error--server {
+  color: red;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper .form--input {
+  width: 100%;
+  padding-right: 40px; // chừa chỗ cho icon mắt
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: #555;
+}

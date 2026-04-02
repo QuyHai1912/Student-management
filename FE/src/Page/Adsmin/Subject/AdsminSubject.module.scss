@@ -1,0 +1,41 @@
+.btn--add {
+}
+
+.wrapper--option {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.option--label {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-right: 20px;
+}
+
+.option--value {
+  height: 26px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input--search {
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid silver;
+  padding-left: 5px;
+  dominant-baseline: 2rem;
+  width: 300px;
+}
+
+.label--search {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+}

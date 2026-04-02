@@ -1,0 +1,58 @@
+.btn--broswer {
+  padding: 5px 10px;
+  background-color: var(--blue-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(49, 49, 255);
+  }
+}
+
+.btn--approved {
+  padding: 5px 10px;
+  background-color: silver;
+  border: none;
+  color: #333;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  cursor: not-allowed;
+}
+
+.wrapper--left {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper--choose {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.choose--label {
+  font-size: 1.8rem;
+  color: #333;
+  margin-right: 10px;
+}
+
+.loading--spinner {
+  width: 28px;
+  height: 28px;
+  border: 4px solid #ddd;
+  border-top: 4px solid #4a90e2;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

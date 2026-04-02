@@ -1,0 +1,258 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,400;0,500;0,600;0,700;1,300;1,400&display=swap");
+
+:root {
+  --blue-color: #1b84ff;
+  --white-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-rendering: optimizeSpeed;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.active {
+  background-color: #6a6a6a;
+}
+
+.btnLogout {
+  width: 90%;
+  height: 40px;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid rgb(71, 71, 71);
+  margin: 0 auto;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(203, 0, 0);
+  }
+}
+
+.button--add {
+  background-color: var(--blue-color);
+  border-radius: 5px;
+  border: none;
+  color: var(--white-color);
+  font-size: 2rem;
+  font-weight: 500;
+  height: 40px;
+  padding: 0 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0c6ede;
+  }
+}
+
+.btn--right {
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #dbd9d9;
+  }
+}
+
+.wrapper--btn {
+}
+
+.btn--close {
+  border: none;
+  border-radius: 5px;
+  background-color: #d4d4d4;
+  padding: 5px 5px;
+  height: 30px;
+  width: 60px;
+  font-size: 1.4rem;
+  margin-right: 5px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.wrapper--btn {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.btn--submit {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--blue-color);
+  padding: 5px 5px;
+  height: 30px;
+  font-size: 1.4rem;
+  color: var(--white-color);
+  margin-right: 5px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #0c6ede;
+  }
+}
+
+.detail--heading {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.wrapper--detail {
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.label--detail {
+  margin: 20px 0;
+}
+
+.label--properties {
+  display: inline-block;
+  width: 200px;
+}
+
+// =================Form thêm Item ==============
+
+.add--form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form--title {
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+}
+
+.form--group {
+  margin: 20px 0;
+  display: flex;
+  text-align: left;
+}
+
+.form--label {
+  display: inline-block;
+  width: 150px;
+  font-size: 1.8rem;
+}
+
+.form--input {
+  height: 2.6rem;
+  line-height: 2rem;
+  font-size: 1.8rem;
+  padding-left: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #b8b8b8;
+  color: #333;
+}
+
+.radio-group {
+  display: flex;
+}
+
+.form--address {
+  text-align: left;
+}
+.error {
+  font-size: 1rem;
+  font-style: italic;
+  color: red;
+}
+
+// trạng thái duyệt lớp học
+.status--pending {
+  color: red;
+}
+
+.status--approved {
+  color: green;
+}
+
+//sửa xóa điểm sinh viên
+
+.edit-input {
+  height: 25px;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  text-align: center;
+  max-width: 50px;
+  outline: none;
+}
+
+.btn--save {
+  width: 50px;
+  height: 30px;
+  background-color: #0636e2;
+  border: 1px solid #0a29de;
+  color: white;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: #0609c5;
+  }
+}
+
+.btn--edit {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    background-color: #d1d1d1;
+  }
+}
+
+// nút tìm kiênhs sinh viên / môn học
+.input--search {
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid silver;
+  padding-left: 5px;
+  dominant-baseline: 2rem;
+  width: 300px;
+}
+
+.btn--approved {
+  padding: 5px 10px;
+}

@@ -1,0 +1,56 @@
+.head--text {
+  margin-bottom: 40px;
+}
+
+.choose--class {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.choose--text {
+  margin-right: 5px;
+  color: #333;
+}
+
+.choose--value {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  padding: 0 20px;
+  outline: none;
+}
+
+.edit-input {
+  height: 25px;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  text-align: center;
+  max-width: 50px;
+  outline: none;
+}
+
+.pass-text {
+  color: #0f8b1d;
+  font-weight: 600;
+}
+
+.fail-text {
+  color: #d10000;
+  font-weight: 600;
+}
+
+.btn--case {
+  border: none;
+  background-color: var(--blue-color);
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 2rem;
+  color: white;
+  height: 40px;
+
+  &:hover {
+    background-color: rgb(41, 41, 247);
+    cursor: pointer;
+  }
+}

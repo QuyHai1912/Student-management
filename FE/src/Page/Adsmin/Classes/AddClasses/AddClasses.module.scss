@@ -1,0 +1,26 @@
+.form--suggest {
+  position: relative;
+}
+
+.suggest--list {
+  top: 35px;
+  position: absolute;
+  list-style: none;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.suggest--item {
+  height: 30px;
+  align-content: center;
+  width: 380px;
+
+  &:hover {
+    background-color: #e7e7e7;
+    cursor: pointer;
+  }
+}

@@ -37,7 +37,7 @@ cd Student-management
 - Frontend will run at: http://localhost:5173
 
 **Account**
-Admin: 
+
 - Tk: Admin1
 - Mk: abc123
 Adv:
